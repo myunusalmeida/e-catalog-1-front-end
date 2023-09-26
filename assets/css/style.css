@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    padding: 80px 0;
+}
+
+section .title {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.fs-7 {
+    font-size: 12px;
+}
+
+.products .card .card-img-top {
+    height: 240px;
+    object-fit: cover;
+}
+
+.product-detail .product-img {
+    height: 550px;
+    object-fit: cover;
+}
